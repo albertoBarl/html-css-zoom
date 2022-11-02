@@ -3,3 +3,35 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+main{
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card{
+    position: relative;
+    color: white;
+    display: flex;
+}
+
+.user-card img{
+    width: 250px;
+    height: auto;
+}
+
+.user-card .user-id{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    padding: 5px;
+}
