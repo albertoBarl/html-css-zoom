@@ -29,7 +29,8 @@ main{
 }
 
 .container{
-    padding-top: 100px;
+    padding-top: 75px;
+    padding-bottom: 37px;
     height: calc(100vh - 100px);
     display: flex;
     flex-wrap: wrap;
